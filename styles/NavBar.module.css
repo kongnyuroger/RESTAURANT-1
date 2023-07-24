@@ -1,11 +1,14 @@
 .container
 {
+    position: sticky;
+    top: 0;
     height: 100px;
     padding: 0px 50px;
     background-color: #d1411e;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
 }
 
 .item
